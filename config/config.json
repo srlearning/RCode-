@@ -1,0 +1,12 @@
+{  
+   "rcode" : "Your RCode",
+   "cname" : "Child Name",
+   "pname" : "Parent Name",
+   "dob" : "Your DOB",
+   "pincode" : "Your Pincode",
+   "email" : "YourEmail@gmail.com",
+   "mobile" : "Your Mobile",
+   "password" : "Your Password",
+   "secret" : "Kikoo",
+   "JWT_KEY": "secret" 
+}
