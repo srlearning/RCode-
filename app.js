@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 
 const UserRoutes = require('./routes');
 
-mongoose.connect('mongodb://localhost:27017/node-login');
+mongoose.connect('mongodb://localhost:27017/kikoo');
 mongoose.Promise = global.Promise;
 
 const router 	   = express.Router();
