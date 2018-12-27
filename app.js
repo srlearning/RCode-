@@ -7,16 +7,13 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 
 const UserRoutes = require('./routes');
+const Code = require('./models/rcode');
 
-mongoose.connect('mongodb://localhost:27017/kikoo');
+mongoose.connect('mongodb://localhost:27017/Kikoo');
 mongoose.Promise = global.Promise;
 
 const router 	   = express.Router();
 const port 	   = process.env.PORT || 3000;
-
-app.get('/',function(req,res){
-    res.send('Hello World');
-   });
 
 app.use(bodyParser.json());
 app.use(morgan('dev'));
